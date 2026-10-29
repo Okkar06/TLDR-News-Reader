@@ -1,0 +1,18 @@
+---
+// Everything between the two "---" fences is the frontmatter.
+// It runs at BUILD time (in Node), never in the visitor's browser.
+const projectName = 'TLDR IT Reader';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <title>{projectName}</title>
+  </head>
+  <body>
+    <h1>{projectName}</h1>
+    <p>Stage 1 placeholder. If you can see this, Astro is working.</p>
+  </body>
+</html>
